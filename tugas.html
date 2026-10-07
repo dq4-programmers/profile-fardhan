@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+      <title>Profil Tentang Saya</title>
+    <style>
+        
+        body {
+            background-color: white;
+            font-family: 'UnifrakturMaguntia', cursive;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+            color: black;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+        .foto-box {
+            width: 220px;      
+            height: 250px;      
+            border: 4px solid black;
+            border-radius: 30px; 
+            margin-bottom: 20px;
+            overflow: hidden; 
+            background-color: #f0f0f0
+        }
+
+               .foto-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+                      object-position: center 20%; 
+        }
+
+        .info {
+            text-align: center;
+            font-size: 28px;
+            line-height: 1.5;
+        }
+
+        .info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>profil tentang saya</h1>
+
+    <div class="foto-box">
+              <img src="C:\Users\M.F.NURMAZID\Pictures\foto\BP3A9459.JPG" alt="Foto Fardhan">
+    </div>
+
+    <div class="info">
+        <p>nama: Fardhan</p>
+        <p>ttl: 26-04-10</p>
+    </div>
+
+</body>
+</html>
